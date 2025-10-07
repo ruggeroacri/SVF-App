@@ -1,0 +1,12 @@
+
+body { font-family: Inter, system-ui, -apple-system, 'Segoe UI', Roboto, 'Helvetica Neue', Arial; margin:0; }
+.app-root { min-height:100vh; display:flex; flex-direction:column; }
+.main { flex:1; padding:16px; background:#fff; }
+.bottom-nav { display:flex; justify-content:space-around; padding:12px; border-top:1px solid #eee; background:#fafafa; position:sticky; bottom:0; }
+h1.title { color:#e30613; font-size:22px; margin-bottom:12px; }
+.card { border:1px solid #eee; padding:12px; border-radius:10px; margin-bottom:10px; background:#fff; box-shadow:0 1px 4px rgba(0,0,0,0.04); }
+.card.next-match { background:#e30613; color:#fff; }
+.actions button { margin-right:8px; padding:8px 12px; border-radius:8px; background:#e30613; color:#fff; border:none; cursor:pointer; }
+.bottom-nav button { background:none; border:none; padding:6px 8px; cursor:pointer; color:#444; }
+.bottom-nav button.active { color:#e30613; font-weight:600; }
+.screen { max-width: 900px; margin: 0 auto; }
